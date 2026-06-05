@@ -223,6 +223,13 @@ touching the code:
 - Resistance is an approximation, not a full electrochemical model.
 - Tested mainly on the NASA dataset format and the bundled sample data.
 
+  ## Development approach
+
+This project was developed with AI-assisted coding support. AI was used for
+scaffolding, code review, testing support, and documentation. The engineering
+requirements, result validation, limitations, and final technical decisions
+were reviewed by the project author.
+
 ## Future improvements
 
 - Basic SOH prediction with scikit-learn, evaluated with MAE / RMSE.
