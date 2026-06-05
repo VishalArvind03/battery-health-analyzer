@@ -1,0 +1,7 @@
+# Normalize line endings: store text files with LF in the repository.
+* text=auto eol=lf
+
+# Treat these as binary so git never tries to convert them.
+*.png binary
+*.mat binary
+*.zip binary

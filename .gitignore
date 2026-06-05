@@ -1,0 +1,25 @@
+# Python caches and virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large raw NASA dataset (download separately; see README)
+data/raw/
+
+# Generated analysis outputs (reproducible by running the tool)
+results/
+
+# Internal / working notes not meant for publication
+HANDOVER_TO_CLAUDE.md
+ERRORS_LOG.md
+
+# Tooling artifacts
+.playwright-mcp/
+
+# Local editor / Claude Code settings (machine-specific)
+.claude/
+.vscode/
+.idea/
